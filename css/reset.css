@@ -1,0 +1,51 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Removes default margin */
+* {
+  margin: 0;
+}
+
+/* Body height & Typographic tweaks */
+body {
+  min-height: 100%;
+  line-height: 1.5;
+  text-rendering: geometricPrecision;
+}
+
+/* Makes images easier to work with */
+img,
+svg,
+picture {
+  display: block;
+  block-size: auto;
+  max-inline-size: 100%;
+}
+
+/* Inherits fonts */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Avoids text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* Removes default link underline */
+a {
+  text-decoration: none;
+}
+
+/* Removes list style & default padding */
+ul {
+  list-style: none;
+  padding: 0;
+}
