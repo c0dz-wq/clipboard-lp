@@ -1,9 +1,3 @@
-.container {
-  max-width: 1440px;
-  margin-inline: auto;
-  width: 85%;
-}
-
 body {
   font-family: "Bai Jamjuree", sans-serif;
   font-size: 18px;
@@ -31,6 +25,17 @@ p {
   color: hsl(201deg, 11%, 66%);
   font-size: 1rem;
   margin-inline: auto;
+}
+@media (min-width: 800px) {
+  p {
+    line-height: 1.65;
+  }
+}
+
+.container {
+  max-width: 1440px;
+  margin-inline: auto;
+  width: 85%;
 }
 
 .header {
@@ -208,6 +213,16 @@ p {
     place-content: center;
   }
 }
+@media (min-width: 1000px) {
+  .access-section p {
+    font-size: inherit;
+    width: 80%;
+  }
+}
+
+.tools-section {
+  margin-bottom: 9rem;
+}
 
 .tools--p {
   margin-bottom: 5rem;
@@ -246,6 +261,10 @@ p {
     flex: 1;
   }
 }
+.companies-section {
+  margin-bottom: 10rem;
+}
+
 .companies--list {
   display: flex;
   flex-direction: column;
