@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/c0dz-wq/clipboard-lp
+- Live Site URL: https://clipboard-lp-29bv.vercel.app
 
 ## My process
 
