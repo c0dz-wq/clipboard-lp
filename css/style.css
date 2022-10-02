@@ -82,7 +82,7 @@ p {
   justify-content: center;
   gap: 1.5rem;
 }
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
   .btn-holder {
     flex-direction: row;
   }
